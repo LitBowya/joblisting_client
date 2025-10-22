@@ -4,10 +4,10 @@ import { useActionState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import {
   deleteSkill,
-  type DeleteSkillState,
 } from "@/app/(root)/profile/skillActions";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import { DeleteJobSkillState } from "@/types/job";
 
 type Props = {
   id: number;
