@@ -7,7 +7,7 @@ import {
 } from "@/app/(root)/profile/skillActions";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
-import { DeleteJobSkillState } from "@/types/job";
+import { DeleteSkillState } from "@/types/skill";
 
 type Props = {
   id: number;
